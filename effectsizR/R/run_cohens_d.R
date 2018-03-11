@@ -123,7 +123,7 @@ run_cohens_d <- function(
                         sd_experimental,
                         sd_control)
 
-  winDialog("ok","The value for your effect size estimate will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate will be displayed in the console.")
 
   cat("Your Cohen's d effect size estimate is", cohens_d)
 }

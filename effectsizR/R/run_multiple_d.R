@@ -91,7 +91,7 @@ run_multiple_d <- function(
                             n_experimental,
                             n_control)
 
-  winDialog("ok","The value for your effect size estimate result will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate result will be displayed in the console.")
 
   cat("Your Hedge's d effect size estimate is", multiple_d)
 

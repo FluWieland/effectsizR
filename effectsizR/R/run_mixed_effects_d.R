@@ -68,7 +68,7 @@ run_mixed_d <- function(
   #Prompting the user to insert the number of observations in the control group. If not a number is inserted,
   #the user is asked to insert a number until he complies or cancels.
 
-  n_observations_ctrl <- winDialogString("Please enter the number of observations (e.g. repeated-measures times participants) in the control group as a number","")
+  n_observations_ctrl <- winDialogString("Please enter the number of observations (e.g. repeated-measures times participants) in the control group","")
   n_observations_ctrl <- as.numeric(n_observations_ctrl)
   if (is.na(n_observations_ctrl) == TRUE){winDialog("ok", "Please type in a number")
     repeat { n_observations_ctrl <- winDialogString("Type in the number of observations in the control group as a number","")
@@ -127,7 +127,7 @@ run_mixed_d <- function(
   sB <- winDialogString("Please enter the betweeb subject's or between group variance of the respective parameter as a number","")
   sB <- as.numeric(sB)
   if (is.na(sB) == TRUE){winDialog("ok", "Please type in a number")
-    repeat { sB <- winDialogString("Type in the betweeb subject's or between group variance of the respective parameter as a number","")
+    repeat { sB <- winDialogString("Type in the between subject's or between group variance of the respective parameter as a number","")
     sB <- as.numeric(sB)
     if (is.numeric(sB) == TRUE & is.na(sB)==FALSE){
       break
@@ -159,7 +159,7 @@ run_mixed_d <- function(
                      sB,
                      sE)
 
-  winDialog("ok","The value for your effect size estimate result will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate result will be displayed in the console.")
 
   cat("Your Hedge's d effect size estimate is", mixed_d)
 

@@ -75,7 +75,7 @@ run_adjusted_r_squared <- function(
                                            r_squared,
                                            k_parameters)
 
-  winDialog("ok","The value for your effect size estimate result will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate result will be displayed in the console.")
 
   cat("Your adjusted R squared estimate is", adjusted_r_squared)
 

@@ -95,7 +95,7 @@ if (question8 == 'YES'){winDialog("ok", "We recommend to calculate the partial c
   run_partial_r()
 } else if (question8 == 'NO'){question9 <- winDialog("yesno", "Do you want to calculate an adjusted R squared for a tested GLM or multiple regression model?")
 }
-if (question9 == 'YES'){winDialog("ok", "We recommend to calculate your adjusted R.  The calculation can be run automatically, however, you may also use the function r_squared().")
+if (question9 == 'YES'){winDialog("ok", "Based on your selections, your adjusted R squared will be calculated.  The calculation can be run automatically, however, you may also use the function r_squared().")
   rm(list=ls())
   question9 <- 0
   run_adjusted_r_squared()

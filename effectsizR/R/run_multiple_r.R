@@ -53,7 +53,7 @@ t <- as.numeric(t)
                             df)
 
 
-  winDialog("ok","The value for your effect size estimate result will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate result will be displayed in the console.")
 
   cat("Your effect size estimate r is", multiple_r)
 

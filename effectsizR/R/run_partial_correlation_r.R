@@ -73,7 +73,7 @@ run_partial_r <- function(
                         r_2_3,
                         r_1_3)
 
-  winDialog("ok","The value for your effect size estimate result will be displayed in the environment.")
+  winDialog("ok","The value for your effect size estimate result will be displayed in the console.")
 
   cat("Your correlation coefficient estimate is", partial_r)
 
