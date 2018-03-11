@@ -1,0 +1,10 @@
+Package: effectsizR
+Version: 0.1.0
+Title: Calculation of Appropriate Effect Sizes for Statistical Procedures
+Author: Christine Sigrist, Fluri Wieland
+Maintainer: Chris Sigrist <chris.sigrist@bluewin.ch>
+Description: This is a package to calculate effect sizes for various statistical procedures.
+License: GPL-2
+Depends: utils
+LazyData: TRUE
+RoxygenNote: 6.0.1
